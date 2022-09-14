@@ -1,0 +1,222 @@
+.header{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    opacity: 0.7;
+    margin-top: -600px;
+}
+.logo{
+    width: 70px;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-top: 8px;
+}
+body{
+    background-color: black;
+}
+a{
+    color: white;
+    margin-top: 15px;
+    display: flex;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: small;
+}
+.user-profile-pic{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.header-nav-search-icon{
+    margin-left: 450px;
+    color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.header-nav-bel-icon{
+    margin-left: 15px;
+    color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.header-nav-user-profile{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.background-img{
+    height: 600px;
+    width: 100%;
+    /* margin-top: -20px; */
+    opacity: .6;
+}
+.text-on-img{
+    position: absolute;
+  bottom: 300px;
+  left: 20px;
+  color: white;
+  font-size:large;
+  margin-top: 300px;
+  font-family: 'Times New Roman', Times, serif ;
+}
+.btn {
+    color: black;
+    background-color: white;
+    border:none;
+    position: absolute;
+    bottom: 250px;
+    left: 70px;
+    /* display:flex; */
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80px;
+    
+}
+.naruto-logo{
+    margin-top: 100px;
+    height: 20vh;
+    position: absolute;
+    left:60px;
+    /* opacity: 0.7; */
+}
+.btn-icon{
+    padding-bottom: 10px;
+    /* padding-right: -10px; */
+    padding-top: 10px;
+    display: inline-block;
+    padding-right: 1em;
+    padding-left: 5px;
+
+   
+}
+.info {
+    color: white;
+    background-color:grey;
+    border:none;
+    position: absolute;
+    bottom: 250px;
+    left: 180px;
+    /* display:flex; */
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 120px;
+    opacity:0.6;
+}
+
+.info-icon{
+    padding-bottom: 10px;
+    padding-right: -10px;
+    padding-top: 10px;
+    font-size:14px;
+}
+
+/* popular-on-netflix */
+.popular-on-netflix1{
+    display: flex;
+   /* width: 100px; */
+    height: 18.5vh;
+    margin-top: -25px;
+    margin-left: 50px;
+    justify-content: space-between;
+
+   
+}
+.popular{
+    margin-top: 545px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity:0.9;
+    font-size: x-large;
+    margin-left: 50px;
+}
+.section-watch{
+    display: flex;
+    display: flex;
+    /* width: 100px; */
+     height: 18.5vh;
+     margin-top: -25px;
+     margin-left: 50px;
+     
+    
+}
+.section-trending{
+    display: flex;
+    /* width: 100px; */
+     height: 18.5vh;
+     margin-top: -25px;
+     margin-left: 50px;
+     justify-content: space-between;
+}
+
+.section-dramas{
+    display: flex;
+    /* width: 100px; */
+     height: 18.5vh;
+     margin-top: -25px;
+     margin-left: 50px;
+     justify-content: space-between;
+}
+.section-new-rel{
+    display: flex;
+    /* width: 100px; */
+     height: 18.5vh;
+     margin-top: -25px;
+     margin-left: 50px;
+     justify-content: space-between;
+}
+.continue{
+    margin-top: 35px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* opacity:0.9; */
+    font-size: x-large;
+    margin-left: 50px;
+}
+.trending{
+    margin-top: 35px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* opacity:0.9; */
+    font-size: x-large;
+    margin-left: 50px;
+}
+.us-tv{
+    margin-top: 35px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    /* opacity:0.9; */
+    font-size: x-large;
+    margin-left: 50px;
+}
+.new-rel{
+    margin-top: 35px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* opacity:0.9; */
+    font-size: x-large;
+    margin-left: 50px;
+}
+.watch1{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+
+
+@media query(max-width:700px){
+.background-img,.header,.popular-on-netflix1,.section-watch,.section-trending,.section-dramas,.section-new-rel{
+    width:100%;
+    float:none;
+}
+}
