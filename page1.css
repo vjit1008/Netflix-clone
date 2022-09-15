@@ -214,9 +214,9 @@ a{
 
 
 
-@media query(max-width:700px){
+@media query(max-width:480px){
 .background-img,.header,.popular-on-netflix1,.section-watch,.section-trending,.section-dramas,.section-new-rel{
     width:100%;
-    float:none;
+    /* float:none; */
 }
 }
